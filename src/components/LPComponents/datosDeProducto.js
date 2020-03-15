@@ -51,7 +51,7 @@ export const productosDeTienda = [
   {
     id: 5,
     title: "Postres para diabéticos",
-    img: "img/pictures/singluten2.jpg",
+    img: "img/pictures/singluten2escalado.jpg",
     price: 243,
     info:
       "Los postres para diabéticos se pueden elaborar igual que el resto de postres pero utilizando algún edulcorante natural como la stevia. Para hacer estos dulces, bizcochos, natillas, etc., utilizamos igualmente yogur, harina, chocolate sin azúcar o fruta. También puedes optar por tortas en frío con base de galletas sin azúcar como las que puedes encontrar en los supermercados. Y si no eres diabético pero quieres prescindir del azúcar en muchas recetas, puedes comerlas igualmente. Conseguirás postres más saludables y con menos calorías.",
@@ -84,7 +84,7 @@ export const productosDeTienda = [
   {
     id: 8,
     title: "Pedidos especiales",
-    img: "img/pictures/pedido especial 5.jpg",
+    img: "img/pictures/pedidoespecial5escalado.jpg",
     price: 10,
     info:
       " Nuestro compromiso con la excelencia del servicio se extiende a la orientación por parte de expertos que lo ayudarán con los pedidos especiales y, siempre que sea posible, las modificaciones personalizadas a cualquiera de nuestros productos.2",

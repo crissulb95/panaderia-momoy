@@ -5,28 +5,9 @@ const ConfiteriaContext = React.createContext();
 
 class ConfiteriaProvider extends Component {
     state={
-        productos: [],
+        productos: productosDeTienda,
         detalles: detalleDeProducto
     }
-
-    componentDidMount() {
-        this.setProducts();
-        }
-
-    setProducts = () => {
-        let tempProducts = [];
-        productosDeTienda.forEach(
-            item => {
-                const singleItem = { ...item };
-                tempProducts = { ...tempProducts, singleItem };
-            }
-        );   
-
-    this.setState(() => {
-        return { productos: tempProducts };
-    });
- }; 
-
 
 
 

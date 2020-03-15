@@ -13,7 +13,7 @@ export default class Navbar extends Component {
     var prevScrollpos = window.pageYOffset;
     window.onscroll = () => {
       const currentScrollPos = window.pageYOffset;
-      prevScrollpos > currentScrollPos ? document.getElementById("navbar").style.top = "0" : document.getElementById("navbar").style.top = "-100%"
+      prevScrollpos > currentScrollPos ? document.getElementById("navbar").style.top = "0" : document.getElementById("navbar").style.top = "-100%";
       prevScrollpos = currentScrollPos;
     }
 
