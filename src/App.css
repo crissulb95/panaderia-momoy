@@ -11,7 +11,7 @@
 body {
   font-family: "Montserrat", sans-serif !important;
   font-weight: normal !important;
-  background-color: var(--darkBlue) !important;
+  background-color: var(--normalBlue) !important;
   color: var(--lightColor) !important;
   margin: 0;
   padding: 0;
@@ -52,7 +52,6 @@ body {
 }
 
 .parte-2 {
-  background-color: rgba(0, 0, 0, 0.3);
   height: 100vh;
   width: 100vw;
 }
@@ -86,6 +85,6 @@ body {
 }
 
 .fondo{
-  background: var(--darkBlue);
+  background: var(--normalBlue);
   box-shadow: 0 45px 45px rgba(0, 0, 0, 0.09), 0 10px 10px rgba(0, 0, 0, 0.13);
 }

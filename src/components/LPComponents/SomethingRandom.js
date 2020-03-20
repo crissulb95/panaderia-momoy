@@ -22,7 +22,7 @@ export default class SomethingRandom extends Component {
 
 
 const NewDiv = styled.div`
-  background-color: rgba(0, 0, 0, 1) !important;
+  background-color: var(--normalBlue) !important;
   height: 80vh;
   width: 30vw;
   position: absolute;
