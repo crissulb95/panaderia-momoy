@@ -1,0 +1,90 @@
+/*font-family: 'Montserrat', sans-serif;*/
+
+:root {
+  --normalBlue: #2b59c3;
+  --darkBlue: #253c78;
+  --jungleGreen: #1b998b;
+  --lightColor: #f8f1ff;
+  --vinoTinto: #ad343e;
+}
+
+body {
+  font-family: "Montserrat", sans-serif !important;
+  font-weight: normal !important;
+  background-color: var(--normalBlue) !important;
+  color: var(--lightColor) !important;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* <------------borrar y volver a escribir para evitar desface de la UI entera de la pagina*/
+}
+
+.text-title {
+  font-weight: bold;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+}
+
+.text-soft {
+  color: var(--normalBlue);
+}
+
+.medialuna {
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  background-image: url(../src/components/LPComponents/pictures/masasDulces.jpg);
+  background-size: inicial;
+
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+.sobreTodo {
+  z-index: 4 !important;
+}
+.subtitleZindex {
+  z-index: 3;
+}
+
+.forTitles {
+  font-family: "Krona One", serif !important;
+  font-size: 2.5rem;
+  color: var(--lightColor);
+}
+
+.parte-2 {
+  height: 100vh;
+  width: 100vw;
+}
+.parte-3 {
+  background: transparent
+    url(../src/components/LPComponents/pictures/pedidoespecial.jpg) scroll
+    no-repeat 0 0;
+  border-radius: 2rem;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  height: 100%;
+  width: 100%;
+}
+
+.parte-4 {
+  height: 100vh;
+  width: 100vw !important;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+
+.mapa{
+  width: 100%;
+  align-items: center;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  border-radius: 1rem;
+  transition: transform 1s;
+}
+
+.mapa:hover{
+  transform: scale(1.1);
+}
+
+.fondo{
+  background: var(--normalBlue);
+  box-shadow: 0 45px 45px rgba(0, 0, 0, 0.09), 0 10px 10px rgba(0, 0, 0, 0.13);
+}
