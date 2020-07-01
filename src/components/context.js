@@ -21,7 +21,8 @@ class ConfiteriaProvider extends Component {
 
     render() {
         return (
-            <ConfiteriaContext.Provider value={{...this.state,
+            <ConfiteriaContext.Provider value={{
+            ...this.state,
             detalles: this.handleDetail,
             carrito: this.addToCart
             }}>

@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import logo from "../logosemidef.svg";
+import logo from "../bread.svg";
 import styled from "styled-components";
 import { ButtonA } from "./Button";
 import '../App.css';
@@ -23,7 +23,7 @@ export default class Navbar extends Component {
           <img
             src={logo}
             alt="confiteria de momoy"
-            className="navbar-brand pt-0 logoimg"
+            className="navbar-brand "
           />
           
         </Link>
@@ -68,34 +68,17 @@ const NavStyle = styled.nav`
     font-weight: bold;
     font-size: 1.2rem;
     font-family: "Montserrat", sans-serif !important;
-    transition: all 0.25s ease-in-out;
-    &:hover {
-      border-bottom: 1px solid var(--lightColor);
-      padding-bottom: 3px;
-    }
+    
   }
   .textounico {
     font-size: 2.5rem;
-  }
-
-  @media only screen and (min-width:1300px){
-    .logoimg ivg{
-      width:10rem;
-      height:auto;
-    }
-
-    .nav-link,
-    .botonA,
-    .botonB{
-      font-size: 1.6rem;
-    }
   }
 
   @media only screen and (min-width:1135px){
     .nav-link,
     .botonA,
     .botonB{
-      font-size: 1.4rem;
+      font-size: 1.1rem;
     }
   }
 `;

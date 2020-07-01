@@ -4,7 +4,7 @@ const ButtonA =styled.button`
   text-transform: uppercase;
   font-weight: bold;
   font-family: "Montserrat", sans-serif !important;
-  font-size: 1.4rem;
+  font-size: 1rem;
   background: transparent;
   border: 0.15rem solid var(--lightColor);
   padding: 0.5rem 1rem;
@@ -22,7 +22,7 @@ const ButtonB = styled.button`
   text-transform: uppercase;
   font-weight: bold;
   font-family: "Montserrat", sans-serif !important;
-  font-size: 1.4rem;
+  font-size: 1rem;
   background: var(--lightColor);
   border: 0.15rem solid var(--lightColor);
   padding: 0.5rem 1rem;
