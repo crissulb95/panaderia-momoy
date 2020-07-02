@@ -16,6 +16,7 @@ const ButtonA =styled.button`
     background: rgb(145, 145, 145, 0.5);
     color: var(--lightColor);
   }
+
 `;
 
 const ButtonB = styled.button`
